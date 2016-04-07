@@ -16,4 +16,8 @@ $(document).ready(function() {
             $(this).text("Can't see me!");
         }
     });
+
+    $(".login-example").submit(function() {
+       console.log("submit!")
+    });
 });
